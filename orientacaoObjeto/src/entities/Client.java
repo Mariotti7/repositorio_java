@@ -53,8 +53,8 @@ public class Client {
 		this.depositBalance += depositeValue;
 	}
 	
-	public void withDrawValue(double withDrawValue, double tax) {
-		this.depositBalance -= (withDrawValue + tax);
+	public void withDrawValue(double withDrawValue) {
+		this.depositBalance -= (withDrawValue + 5.00);
 		
 	}
 

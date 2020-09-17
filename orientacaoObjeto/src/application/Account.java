@@ -34,7 +34,7 @@ public class Account {
 		
 		System.out.print("Enter a withdraw value: ");
 		double withDrawValue = sc.nextDouble();
-		holder.withDrawValue(withDrawValue, 5.0);
+		holder.withDrawValue(withDrawValue);
 		System.out.println("\nUpdated account data:");
 		System.out.println(holder);
 		
