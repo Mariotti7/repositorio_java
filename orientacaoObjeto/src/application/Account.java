@@ -28,12 +28,14 @@ public class Account {
 		System.out.print("Enter a deposit value: ");
 		double depositeValue = sc.nextDouble();
 		holder.addDepositeValue(depositeValue);
+		System.out.println("\nUpdated account data:");
 		System.out.println(holder);
 		System.out.println();
 		
 		System.out.print("Enter a withdraw value: ");
 		double withDrawValue = sc.nextDouble();
 		holder.withDrawValue(withDrawValue, 5.0);
+		System.out.println("\nUpdated account data:");
 		System.out.println(holder);
 		
 
